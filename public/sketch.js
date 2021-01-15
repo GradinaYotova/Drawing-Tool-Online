@@ -1,8 +1,8 @@
 var socket;
 var mySketches = [];
 
-// socket = io.connect('https://canvas-online.herokuapp.com/'); 
-socket = io.connect('http://192.168.88.23:3000');
+socket = io.connect('https://canvas-online.herokuapp.com/'); 
+// socket = io.connect('http://192.168.88.23:3000');
 
 var canvas;
 var myDrawingSketch = function(p) {
