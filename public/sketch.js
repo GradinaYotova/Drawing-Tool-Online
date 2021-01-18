@@ -8,7 +8,7 @@ var canvas;
 var myDrawingSketch = function(p) {
 
 	p.setup = function() {
-		p.createCanvas(window.innerWidth,1000);
+		p.createCanvas(window.innerWidth,900);
 		p.background(225,0);
 		// p.background(225);
 
