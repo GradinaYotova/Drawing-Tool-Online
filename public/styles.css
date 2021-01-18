@@ -38,7 +38,7 @@ body{
 	margin:0;
   width: 100%;
 	z-index:-100;
-	position:absolute;
+	position:fixed;
   left:0%;
   right:0%;
   top:0%;
@@ -74,11 +74,12 @@ img{
   -ms-user-select: none;
   z-index:-1;
   padding:1%;
-  display:inline-block;
-  width:10%;
+  display:block;
+  width:50%;
+  margin:auto;
 }
 
 
-img:hover{
-width:12%;
-}
+/*img:hover{
+width:40%;
+}*/
