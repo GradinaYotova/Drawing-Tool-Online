@@ -51,13 +51,28 @@ body{
   position:relative;
   text-align:center;
   padding-bottom:1%;
+  z-index:101;
 } 
 
 
 #title img{
   width:40%;
-  z-index:100;
+  z-index:101;
 /*  background-color:white;*/
+}
+
+#frame{
+  width:100%;
+  text-align:center;
+  z-index:100;
+  position:fixed;
+  transform:scale(2);
+  pointer-events:none;
+
+}
+
+#frame img{
+  padding:3%;
 }
 
 .shapes{
@@ -75,7 +90,7 @@ img{
   z-index:-1;
   padding:1%;
   display:block;
-  width:50%;
+  width:40%;
   margin:auto;
 }
 
