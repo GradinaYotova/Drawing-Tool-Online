@@ -23,7 +23,7 @@ var myDrawingSketch = function(p) {
 		}
 	}
 
-	p.mouseDragged = function() {
+	p.mouseMoved = function() {
 
 		console.log(p.mouseX + ',' + p.mouseY);
 		
