@@ -73,6 +73,12 @@ img{
   -webkit-user-select: none;
   -ms-user-select: none;
   z-index:-1;
+  padding:1%;
   display:inline-block;
-  width:20%;
+  width:10%;
+}
+
+
+img:hover{
+width:12%;
 }

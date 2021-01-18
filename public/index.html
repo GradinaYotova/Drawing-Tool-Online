@@ -10,25 +10,24 @@
     </div>
 
     <div id="title">
-      <img src="content/index-img/Logo.png"> 
+      <img src="content/index-img/logo.png"> 
     </div>
 
 
     <div class="shapes">
       <div class="images">
-        <img class="imageOne" src="content/shapes/img0.png">
-        <img class="imageOne" src="content/shapes/img1.png">
-        <img class="imageOne" src="content/shapes/img2.png">
-        <img class="imageOne" src="content/shapes/img3.png">
-        <img class="imageOne" src="content/shapes/img4.png">
-<!--         <div style="width:20% height:5vw;"><p>hello</p></div> -->
-        <img class="imageOne" src="content/shapes/img5.png">
-        <img class="imageOne" src="content/shapes/img6.png">
-        <img class="imageOne" src="content/shapes/img7.png">
-        <img class="imageOne" src="content/shapes/img8.png">
-        <img class="imageOne" src="content/shapes/img9.png">
-        <img class="imageOne" src="content/shapes/img10.png">
-        <img class="imageOne" src="content/shapes/img11.png">
+        <img id="imageOne" src="content/shapes/img0.png">
+        <img id="imageTwo" src="content/shapes/img1.png">
+        <img id="imageThree" src="content/shapes/img2.png">
+        <img id="imageFour" src="content/shapes/img3.png">
+        <img id="imageFive" src="content/shapes/img4.png">
+        <img id="imageSix" src="content/shapes/img5.png">
+        <img id="imageSeven" src="content/shapes/img6.png">
+        <img id="imageEight" src="content/shapes/img7.png">
+        <img id="imageNine" src="content/shapes/img8.png">
+        <img id="imageTen" src="content/shapes/img9.png">
+        <img id="imageEleven" src="content/shapes/img10.png">
+        <img id="imageTwelve" src="content/shapes/img11.png">
         <img class="imageOne" src="content/shapes/img12.png">
         <img class="imageOne" src="content/shapes/img13.png">
         <img class="imageOne" src="content/shapes/img14.png">
@@ -58,6 +57,138 @@
         <img class="imageOne" src="content/shapes/img37.png">
       </div>
     </div>  
+
+
+    <audio id="sound" preload="audio"> 
+    	<source src="content/voiceover/1veni.wav">
+    </audio>
+
+     <audio id="soundTwo" preload="audio"> 
+    	<source src="content/voiceover/2ico.wav">
+    </audio>
+
+    <audio id="soundThree" preload="audio"> 
+    	<source src="content/voiceover/3sevi.wav">
+    </audio>
+
+     <audio id="soundFour" preload="audio"> 
+    	<source src="content/voiceover/4mariq.wav">
+    </audio>
+
+     <audio id="soundFive" preload="audio"> 
+    	<source src="content/voiceover/5mirela.wav">
+    </audio>
+
+     <audio id="soundSix" preload="audio"> 
+    	<source src="content/voiceover/6roso.wav">
+    </audio>
+
+     <audio id="soundSeven" preload="audio"> 
+    	<source src="content/voiceover/7toshko.wav">
+    </audio>
+
+
+    <audio id="soundEight" preload="audio"> 
+    	<source src="content/voiceover/8dia.wav">
+    </audio>
+
+    <audio id="soundNine" preload="audio"> 
+    	<source src="content/voiceover/9ivana.wav">
+    </audio>
+
+    <audio id="soundTen" preload="audio"> 
+    	<source src="content/voiceover/10spontaniq.wav">
+    </audio>
+
+    <audio id="soundEleven" preload="audio"> 
+    	<source src="content/voiceover/11lora.wav">
+    </audio>
+
+
+    <audio id="soundTwelve" preload="audio"> 
+    	<source src="content/voiceover/12mitko.wav">
+    </audio>
+
+
+
+
+
+ <script
+	  src="https://code.jquery.com/jquery-3.5.1.js"
+	  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	  crossorigin="anonymous">
+  </script>
+
+
+
+    <script>
+
+    var audio = $("#sound")[0];
+	$("#imageOne").mouseenter(function() {
+	  audio.play();
+	});
+
+	var audioTwo = $("#soundTwo")[0];
+	$("#imageTwo").mouseenter(function() {
+	  audioTwo.play();
+	});
+
+	var audioThree = $("#soundThree")[0];
+	$("#imageThree").mouseenter(function() {
+	  audioThree.play();
+	});
+
+	var audioFour = $("#soundFour")[0];
+	$("#imageFour").mouseenter(function() {
+	  audioFour.play();
+	});
+
+	var audioFive = $("#soundFive")[0];
+	$("#imageFive").mouseenter(function() {
+	  audioFive.play();
+	});
+
+
+	var audioSix = $("#soundSix")[0];
+	$("#imageSix").mouseenter(function() {
+	  audioSix.play();
+	});
+
+	var audioSeven = $("#soundSeven")[0];
+	$("#imageSeven").mouseenter(function() {
+	  audioSeven.play();
+	});
+
+	var audioEight = $("#soundEight")[0];
+	$("#imageEight").mouseenter(function() {
+	  audioEight.play();
+	});
+
+	var audioNine = $("#soundNine")[0];
+	$("#imageNine").mouseenter(function() {
+	  audioNine.play();
+	});
+
+	var audioTen = $("#soundTen")[0];
+	$("#imageTen").mouseenter(function() {
+	  audioTen.play();
+	});
+
+
+	var audioEleven = $("#soundEleven")[0];
+	$("#imageEleven").mouseenter(function() {
+	  audioEleven.play();
+	});
+
+	var audioTwelve = $("#soundTwelve")[0];
+	$("#imageTwelve").mouseenter(function() {
+	  audioTwelve.play();
+	});
+
+
+    </script>	
+
+   
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="sketch.js"></script>
